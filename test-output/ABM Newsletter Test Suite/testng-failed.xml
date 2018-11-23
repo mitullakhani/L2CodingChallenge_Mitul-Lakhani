@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [ABM Newsletter Test Suite]" parallel="tests">
+  <test name="ABM Newsletter Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.abm.newsletter.ExecClass">
+        <methods>
+          <include name="testNG"/>
+        </methods>
+      </class> <!-- com.abm.newsletter.ExecClass -->
+    </classes>
+  </test> <!-- ABM Newsletter Test(failed) -->
+</suite> <!-- Failed suite [ABM Newsletter Test Suite] -->
